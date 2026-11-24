@@ -221,3 +221,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PM5 Control — local device data and sensitive RFID material
+**/dumps/
+**/captures/
+**/private/
+**/logs/
+**/keys/
+**/private-dictionaries/
+**/.proxmark3/
+**/.pm5-control/
+**/iceman-build/
+**/iceman-*/
+*.bin
+*.dump
+*.eml
+*.trace
+*.dic
+*.keys
+*.key
+*.pem
+*.token
+*.pcap
+*.pcapng
+*.sqlite
+*.sqlite3
+*.local.json
